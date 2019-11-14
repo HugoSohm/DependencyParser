@@ -1,0 +1,13 @@
+language: python
+group: stable
+os: linux
+before_script:
+    - pip3 install conan
+    - git clone https://github.com/cve-search/PyCVESearch.git
+    - cd PyCVESearch && pip3 install . && cd ..
+    
+script:
+    - python3 dependencyParser.py
+
+notifications:
+  email: false
