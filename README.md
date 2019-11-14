@@ -1,5 +1,7 @@
 <div align="center"><h1>Dependency Parser</h1>
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/3f6df9bc31238bc767be/maintainability)](https://codeclimate.com/github/HugoSohm/DependencyParser/maintainability)
+
 **DependencyParser** is a dependencies parser for c++ in python using cvesearch, defaulting on https://cve.circl.lu.
 
 This script is based on the work of [Martin Simon](https://github.com/mrsmn/ares) and [Kai Renken](https://github.com/elektrischermoench/ares3).
